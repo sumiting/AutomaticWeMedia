@@ -5,8 +5,9 @@ from email.mime.image import MIMEImage
 
 def sendMail(title,Content):
     sender = '1150169485@qq.com'
+    #receivers = '651885427@qq.com'
+    receivers = '2934409798@qq.com'
     #receivers = '1355782779@qq.com'
-    receivers = '1355782779@qq.com'
     message = MIMEMultipart('related')
     subject = title
     message['Subject'] = subject
